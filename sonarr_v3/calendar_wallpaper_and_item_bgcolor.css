@@ -1,0 +1,127 @@
+/*Tip: Replace "calendarPageBody" with "CalendarDays" to only cover calendar. */
+div[class*="calendarPageBody"] {
+    /*Replace with your own valid image url*/
+    background-image: url("http://localhost/bluabk/stylus/1000266_flipped.jpg");
+    background-repeat: no-repeat;
+    background-size: 99%;
+    background-position: 0% 30%;
+    /*NB: Might need to tune alpha based on the background image. */
+    background-color: rgba(0, 0, 0, .60);
+    background-blend-mode: multiply;
+}
+
+div[class*="CalendarHeader/titleDesktop"] {
+    color: #fff;
+}
+
+div[class*="CalendarDay"] {
+    /* Make left/day borders less obtrusive with wallpaper. */
+    border-left: 1px solid rgba(206, 206, 206, .13);
+    border-right: 1px solid rgba(206, 206, 206, .13);
+    border-bottom: 1px solid rgba(206, 206, 206, .13);
+
+    /* Hide certain borders. */
+    /*border-right-style: none;*/
+    border-bottom-style: none;
+}
+
+div[class*="DayOfWeek/isToday"] {
+    /*Darken shade of isToday weekday column.*/
+    background-color: rgb(176, 176, 176);
+}
+
+div[class*="Legend/legend"] {
+    /*White text in legend.*/
+    color: #fff;
+}
+
+div[class*="Agenda/agenda"] {
+    /*White text in agenda.*/
+    color: #fff;
+
+    /*Tint the entire agenda to make wallpaper less intrusive.*/
+    background-color: rgba(0, 0, 0, .60);
+    background-blend-mode: multiply;
+}
+
+div[class*="Link/link"]:hover {
+    /*Make on-hover of agenda items a bit more pleasant than white bgcolor. */
+    background-color: rgba(0, 0, 0, 30);
+}
+
+/* Restore Sonarr v2 look and feel of calendar items having bgcolor, plus some extra snacks. */
+div[class*="CalendarEvent/missing"] {
+    background-color: #c80c0c;
+}
+
+div[class*="CalendarEvent/missing"]:hover {
+    background-color: #c80c0c;
+    filter: brightness(120%);
+}
+
+div[class*="CalendarEvent/downloaded"] {
+    background-color: #12882f;
+}
+
+div[class*="CalendarEvent/downloaded"]:hover {
+    background-color: #12882f;
+    filter: brightness(120%);
+}
+
+div[class*="CalendarEvent/unaired"] {
+    background-color: #14529f;
+}
+
+div[class*="CalendarEvent/unaired"]:hover {
+    background-color: #14529f;
+    filter: brightness(120%);
+}
+
+div[class*="CalendarEvent/unmonitored"] {
+    background-color: #adadad;
+}
+
+div[class*="CalendarEvent/unmonitored"]:hover {
+    background-color: #adadad;
+    filter: brightness(120%);
+}
+
+div[class*="CalendarEvent/onAir"] {
+    background-color: #ffa500;
+}
+
+div[class*="CalendarEvent/onAir"]:hover {
+    background-color: #ffa500;
+    filter: brightness(120%);
+}
+
+div[class*="CalendarEvent/downloading"] {
+    background-color: #7a43b6;
+}
+
+div[class*="CalendarEvent/downloading"]:hover {
+    background-color: #7a43b6;
+    filter: brightness(120%);
+}
+
+div[class*="CalendarEvent/seriesTitle"] {
+    color: #fff;
+}
+
+div[class*="CalendarEvent/episodeInfo"] {
+    /* Add some transparency to lessen impact of this text. */
+    color: #ffffffb5;
+}
+
+div[class*="CalendarEvent/episodeTitle"] {
+    color: #fff;
+}
+
+div[class*="CalendarEvent/airTime"] {
+    /* Add some transparency to lessen impact of this text. */
+    color: #ffffffb5;
+}
+
+svg[class*="Icon-info"] {
+    color: #515253;
+}
