@@ -14,6 +14,18 @@ div[class*="CalendarHeader/titleDesktop"] {
     color: #fff;
 }
 
+div[class*="DaysOfWeek/daysOfWeek"] {
+    /*background-color: rgba(0, 0, 0, .60);*/
+}
+
+div[class*="DayOfWeek/dayOfWeek"] {
+    /*Light ver.*/
+    /*background-color: rgba(206, 206, 206, .13);*/
+    /*Dark ver.*/
+    background-color: rgba(0, 0, 0, .13);
+    color: #fff;
+}
+
 div[class*="CalendarDay"] {
     /* Make left/day borders less obtrusive with wallpaper. */
     border-left: 1px solid rgba(206, 206, 206, .13);
