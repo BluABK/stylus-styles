@@ -21,7 +21,8 @@ div[class*="CalendarDay"] {
     border-bottom: 1px solid rgba(206, 206, 206, .13);
 
     /* Hide certain borders. */
-    /*border-right-style: none;*/
+    border-right-style: none;
+    border-left-style: none;
     border-bottom-style: none;
 }
 
@@ -40,7 +41,7 @@ div[class*="Agenda/agenda"] {
     color: #fff;
 
     /*Tint the entire agenda to make wallpaper less intrusive.*/
-    background-color: rgba(0, 0, 0, .60);
+    background-color: rgba(0, 0, 0, .75);
     background-blend-mode: multiply;
 }
 
