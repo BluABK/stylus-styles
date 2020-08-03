@@ -14,10 +14,6 @@ div[class*="CalendarHeader/titleDesktop"] {
     color: #fff;
 }
 
-div[class*="DaysOfWeek/daysOfWeek"] {
-    /*background-color: rgba(0, 0, 0, .60);*/
-}
-
 div[class*="DayOfWeek/dayOfWeek"] {
     /*Light ver.*/
     /*background-color: rgba(206, 206, 206, .13);*/
@@ -40,7 +36,7 @@ div[class*="CalendarDay"] {
 
 div[class*="DayOfWeek/isToday"] {
     /*Darken shade of isToday weekday column.*/
-    background-color: rgba(0, 0, 0, .30);
+    background-color: rgba(0, 0, 0, .50);
 }
 
 div[class*="Legend/legend"] {
