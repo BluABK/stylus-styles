@@ -1,7 +1,15 @@
+/*
+    BluABK's Sonarr theme
+        - Calendar wallpaper
+        - Calendar tile backgrounds (Sonarr v2 look-and-feel)
+    
+    Compatible with Sonarr <= 3.0.6.1196
+*/
+
 /*Tip: Replace "calendarPageBody" with "CalendarDays" to only cover calendar. */
 div[class*="calendarPageBody"] {
     /*Replace with your own valid image url*/
-    background-image: url("http://localhost/bluabk/stylus/1000266_flipped.jpg");
+    background-image: url("https://bluabk.github.io/stylus-styles/sonarr_v3/sonarr-v3_bg1.jpg");
     background-repeat: no-repeat;
     background-size: 99%;
     background-position: 0% 30%;
