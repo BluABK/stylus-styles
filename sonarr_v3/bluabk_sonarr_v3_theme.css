@@ -61,7 +61,7 @@ div[class*="Agenda-agenda"] {
     background-blend-mode: multiply;
 }
 
-div[class*="Link/link"]:hover {
+div[class*="Link-link"]:hover {
     /*Make on-hover of agenda items a bit more pleasant than white bgcolor. */
     background-color: rgba(0, 0, 0, 30);
 }
