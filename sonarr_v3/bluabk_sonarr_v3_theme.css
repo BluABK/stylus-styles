@@ -3,7 +3,7 @@
         - Calendar wallpaper
         - Calendar tile backgrounds (Sonarr v2 look-and-feel)
     
-    Compatible with Sonarr <= 3.0.6.1196
+    Compatible with Sonarr >= 3.0.6.1265
 */
 
 /*Tip: Replace "calendarPageBody" with "CalendarDays" to only cover calendar. */
@@ -18,11 +18,11 @@ div[class*="calendarPageBody"] {
     background-blend-mode: multiply;
 }
 
-div[class*="CalendarHeader/titleDesktop"] {
+div[class*="CalendarHeader-titleDesktop"] {
     color: #fff;
 }
 
-div[class*="DayOfWeek/dayOfWeek"] {
+div[class*="DayOfWeek-dayOfWeek"] {
     /*Light ver.*/
     /*background-color: rgba(206, 206, 206, .13);*/
     /*Dark ver.*/
@@ -42,17 +42,17 @@ div[class*="CalendarDay"] {
     border-bottom-style: none;
 }
 
-div[class*="DayOfWeek/isToday"] {
+div[class*="DayOfWeek-isToday"] {
     /*Darken shade of isToday weekday column.*/
     background-color: rgba(0, 0, 0, .50);
 }
 
-div[class*="Legend/legend"] {
+div[class*="Legend-legend"] {
     /*White text in legend.*/
     color: #fff;
 }
 
-div[class*="Agenda/agenda"] {
+div[class*="Agenda-agenda"] {
     /*White text in agenda.*/
     color: #fff;
 
@@ -67,74 +67,74 @@ div[class*="Link/link"]:hover {
 }
 
 /* Restore Sonarr v2 look and feel of calendar items having bgcolor, plus some extra snacks. */
-div[class*="CalendarEvent/missing"] {
+div[class*="CalendarEvent-missing"] {
     background-color: #c80c0c;
 }
 
-div[class*="CalendarEvent/missing"]:hover {
+div[class*="CalendarEvent-missing"]:hover {
     background-color: #c80c0c;
     filter: brightness(120%);
 }
 
-div[class*="CalendarEvent/downloaded"] {
+div[class*="CalendarEvent-downloaded"] {
     background-color: #12882f;
 }
 
-div[class*="CalendarEvent/downloaded"]:hover {
+div[class*="CalendarEvent-downloaded"]:hover {
     background-color: #12882f;
     filter: brightness(120%);
 }
 
-div[class*="CalendarEvent/unaired"] {
+div[class*="CalendarEvent-unaired"] {
     background-color: #14529f;
 }
 
-div[class*="CalendarEvent/unaired"]:hover {
+div[class*="CalendarEvent-unaired"]:hover {
     background-color: #14529f;
     filter: brightness(120%);
 }
 
-div[class*="CalendarEvent/unmonitored"] {
+div[class*="CalendarEvent-unmonitored"] {
     background-color: #adadad;
 }
 
-div[class*="CalendarEvent/unmonitored"]:hover {
+div[class*="CalendarEvent-unmonitored"]:hover {
     background-color: #adadad;
     filter: brightness(120%);
 }
 
-div[class*="CalendarEvent/onAir"] {
+div[class*="CalendarEvent-onAir"] {
     background-color: #ffa500;
 }
 
-div[class*="CalendarEvent/onAir"]:hover {
+div[class*="CalendarEvent-onAir"]:hover {
     background-color: #ffa500;
     filter: brightness(120%);
 }
 
-div[class*="CalendarEvent/downloading"] {
+div[class*="CalendarEvent-downloading"] {
     background-color: #7a43b6;
 }
 
-div[class*="CalendarEvent/downloading"]:hover {
+div[class*="CalendarEvent-downloading"]:hover {
     background-color: #7a43b6;
     filter: brightness(120%);
 }
 
-div[class*="CalendarEvent/seriesTitle"] {
+div[class*="CalendarEvent-seriesTitle"] {
     color: #fff;
 }
 
-div[class*="CalendarEvent/episodeInfo"] {
+div[class*="CalendarEvent-episodeInfo"] {
     /* Add some transparency to lessen impact of this text. */
     color: #ffffffb5;
 }
 
-div[class*="CalendarEvent/episodeTitle"] {
+div[class*="CalendarEvent-episodeTitle"] {
     color: #fff;
 }
 
-div[class*="CalendarEvent/airTime"] {
+div[class*="CalendarEvent-airTime"] {
     /* Add some transparency to lessen impact of this text. */
     color: #ffffffb5;
 }
